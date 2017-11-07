@@ -1,0 +1,124 @@
+body{
+    background-color: #ffffff;
+    background-image: url("../images/stonehaven.png");
+}
+h2 {
+    color: #4aaaa5;
+    margin-left: 25px;
+}
+.header
+{
+    background-color: #FFF;
+    height: 80px;
+}
+.center
+{
+    width: 960px;
+    margin: auto;
+}
+.floatLeft
+{
+    background-color: #9999FF;
+    height: 80px;
+    float: left;
+    margin: 0px;
+}
+.floatRight
+{
+    float:right;
+}
+.floatRight a
+{
+    font-size: 24px;
+    margin-left: 10px;
+    position: relative;
+}
+.floatRight a:hover
+{
+    background-color: #FF5599;
+    top: 10%;
+}
+.content
+{
+    clear: both;
+}
+.centerContent  {
+    float: left;
+    margin-left: 100px;
+    border: black solid 2px; 
+    width: 600px;
+    /*height: auto;*/
+}
+#connectBox 
+    {
+    /*clear: both;*/
+    height: auto;
+    width: 200px;
+    border: black solid 2px; 
+    float: left;
+    margin-left: 40px;
+  
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.boxFun {
+    float: left;
+  /*  position: relative;
+    width: 50px;
+    height: 50px;*/
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.backgroundBox {
+    text-align: center;
+    width: 100%;
+    height: 37px;
+    background: green;
+    position: relative;
+    bottom: 78px;
+    line-height: 32px;
+}
+.backgroundBox2 {
+    text-align: center;
+    width: 100%;
+    height: 37px;
+    background: green;
+    position: relative;
+    bottom: 78px;
+    line-height: 32px;
+}
+.backgroundBox3 {
+     text-align: center;
+    width: 100%;
+    height: 37px;
+    background: green;
+    position: relative;
+    bottom: 78px;
+    line-height: 32px;
+}
+.backgroundBox4 {
+    text-align: center;
+    width: 100%;
+    height: 37px;
+    background: green;
+    position: relative;
+    bottom: 78px;
+    line-height: 32px;
+}
+.backgroundBox5 {
+     text-align: center;
+    width: 100%;
+    height: 37px;
+    background: green;
+    position: relative;
+    bottom: 78px;
+    line-height: 32px;
+}

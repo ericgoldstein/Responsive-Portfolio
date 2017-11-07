@@ -1,0 +1,123 @@
+h1 {
+	margin-left: 150px;
+	border: 2px;
+	background-color: #4aaaa5;
+	width: 200px;
+	color: white;
+
+}
+body{
+    background-color: #ffffff;
+    background-image: url("../images/stonehaven.png");
+}
+.header
+{
+    background-color: #FFF;
+    height: 80px;
+}
+.center
+{
+    width: 960px;
+    margin: auto;
+}
+.floatLeft
+{
+    background-color: #9999FF;
+    height: 80px;
+    float: left;
+    margin: 0px;
+}
+.floatRight
+{
+    float:right;
+}
+.floatRight a
+{
+    font-size: 24px;
+    margin-left: 10px;
+    position: relative;
+}
+.floatRight a:hover
+{
+    background-color: #FF5599;
+    top: 10%;
+}
+.content
+{
+    clear: both;
+}
+	#aboutMeBox
+	{
+	float: left;
+	margin-left: 100px;
+	border: black solid 2px; 
+	width: 600px;
+	height: auto;
+	}
+#connectBox {
+	height: auto;
+	width: 200px;
+	border: black solid 2px; 
+	float: left;
+	margin-left: 300px;
+}
+#image {
+	float: left;
+	margin: 0 15px 0 15px;
+}
+h2 {
+	margin-left: 15px;
+	color: #4aaaa5;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+@media screen and (max-width: 980px) {
+    body {
+        width: 60%;
+    }
+    .headder {
+        width: 60%;
+    }
+    #aboutMeBox {
+        width: 60%;
+    }
+    #connectBox {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 786px) {
+    body {
+        width: 40%;
+    }
+    .headder {
+        width: 40%;
+    }
+    #aboutMeBox {
+        width: 40%;
+    }
+    #connectBox {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 640px) {
+    body {
+        width: 25%;
+    }
+    .headder {
+        width: 25%;
+    }
+    #aboutMeBox {
+        width: 25%;
+    }
+    #connectBox {
+        width: 25%;
+    }
+}
